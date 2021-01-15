@@ -4,7 +4,7 @@ namespace MN\LaravelLivewireTables;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Str;
-use Kdion4891\LaravelLivewireTables\Traits\WithQueryMaker;
+use MN\LaravelLivewireTables\Traits\WithQueryMaker;
 use Livewire\Component;
 use Livewire\WithPagination;
 
@@ -57,7 +57,7 @@ class TableComponent extends Component
     }
 
     /**
-     * @return \Kdion4891\LaravelLivewireTables\Column[]
+     * @return \MN\LaravelLivewireTables\Column[]
      */
     public function columns()
     {
@@ -157,7 +157,7 @@ class TableComponent extends Component
     }
 
     /**
-     * @return null|\Kdion4891\LaravelLivewireTables\Column
+     * @return null|\MN\LaravelLivewireTables\Column
      */
     protected function getColumnByAttribute($attribute)
     {

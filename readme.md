@@ -4,6 +4,8 @@
 
 Directly inspired by : [Laravel Livewire Tables](https://github.com/kdion4891/laravel-livewire-tables)
 
+This package has been made for Matiere Noire internal's projects and is not destined to be working as a "ready to go" package for now
+
 A dynamic, responsive [Laravel Livewire](https://laravel-livewire.com) table component with searching, sorting, checkboxes, and pagination.
 
 # Installation
@@ -12,7 +14,7 @@ Make sure you've [installed Laravel Livewire](https://laravel-livewire.com/docs/
 
 Installing this package via composer:
 
-    composer require kdion4891/laravel-livewire-tables
+    composer require matiere-noire/laravel-livewire-table
     
 This package was designed to work well with [Laravel frontend scaffolding](https://laravel.com/docs/master/frontend).
 

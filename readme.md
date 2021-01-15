@@ -65,6 +65,18 @@ You use table components in views just like any other Livewire component:
 
 Now all you have to do is update your table component class!
 
+# Publishing Files
+
+Publishing files is optional.
+
+Publishing the table view files:
+
+    php artisan vendor:publish --tag=table-views
+
+Publishing the config file:
+
+    php artisan vendor:publish --tag=table-config
+
 # Table Component Properties
 
 ### `$table_class`
@@ -427,15 +439,3 @@ Using a custom view for a relationship column? No problem:
 
     {{-- resources/views/cars/table-brand-name.blade.php --}}
     {{ $model->brand->name }}
-
-# Publishing Files
-
-Publishing files is optional.
-
-Publishing the table view files:
-
-    php artisan vendor:publish --tag=table-views
-
-Publishing the config file:
-
-    php artisan vendor:publish --tag=table-config

@@ -1,0 +1,31 @@
+{
+    "name": "matiere-noire/laravel-livewire-table",
+    "description": "Laravel/Livewire plugin to make easy sortable tables",
+    "homepage": "https://github.com/matiere-noire/laravel-livewire-tables",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Matière Noire",
+        "email": "developer@matierenoire.io"
+      }
+    ],
+    "require": {
+        "php": "^7.2.5|^8.0",
+        "livewire/livewire": "^1.3|^2.3"
+    },
+    "require-dev": {
+        "laravel/framework": "^7.0|^8.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "MN\\LaravelLivewireTables\\": "src/"
+      }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MN\\LaravelLivewireTables\\Providers\\TableServiceProvider"
+            ]
+        }
+    }
+}
